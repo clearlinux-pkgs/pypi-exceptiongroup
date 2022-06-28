@@ -4,7 +4,7 @@
 #
 Name     : pypi-exceptiongroup
 Version  : 1.0.0rc8
-Release  : 8
+Release  : 9
 URL      : https://files.pythonhosted.org/packages/94/e0/2f58a7e00e28cd57f8239bd8d16963c2810142af58028cf5b0681ed9fdfd/exceptiongroup-1.0.0rc8.tar.gz
 Source0  : https://files.pythonhosted.org/packages/94/e0/2f58a7e00e28cd57f8239bd8d16963c2810142af58028cf5b0681ed9fdfd/exceptiongroup-1.0.0rc8.tar.gz
 Summary  : Backport of PEP 654 (exception groups)
@@ -63,7 +63,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1654699996
+export SOURCE_DATE_EPOCH=1656375349
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -101,7 +101,7 @@ export FCFLAGS="$FCFLAGS -m64 -march=x86-64-v3 "
 export LDFLAGS="$LDFLAGS -m64 -march=x86-64-v3 "
 pip install --root=%{buildroot}-v3 --no-deps --ignore-installed dist/*.whl
 popd
-/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot}/usr/share/clear/optimized-elf/ %{buildroot}/usr/share/clear/filemap/filemap-%{name}
+/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot} %{buildroot}/usr/share/clear/filemap/filemap-%{name}
 
 %files
 %defattr(-,root,root,-)
