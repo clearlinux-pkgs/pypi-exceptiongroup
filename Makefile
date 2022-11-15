@@ -1,5 +1,5 @@
 PKG_NAME := pypi-exceptiongroup
-URL = https://files.pythonhosted.org/packages/dc/a1/95af4babfb5c3d971493f338cdebfdee5958f689d551a2def2c2ae7be2c7/exceptiongroup-1.0.2.tar.gz
+URL = https://files.pythonhosted.org/packages/fa/e1/4f89a2608978a78876a76e69e82fa1fc5ce3fb346297eed2a51dd3df2dcf/exceptiongroup-1.0.4.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
