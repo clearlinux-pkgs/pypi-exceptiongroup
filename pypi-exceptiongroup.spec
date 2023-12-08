@@ -7,7 +7,7 @@
 #
 Name     : pypi-exceptiongroup
 Version  : 1.2.0
-Release  : 31
+Release  : 32
 URL      : https://files.pythonhosted.org/packages/8e/1c/beef724eaf5b01bb44b6338c8c3494eff7cab376fab4904cfbbc3585dc79/exceptiongroup-1.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/8e/1c/beef724eaf5b01bb44b6338c8c3494eff7cab376fab4904cfbbc3585dc79/exceptiongroup-1.2.0.tar.gz
 Summary  : Backport of PEP 654 (exception groups)
@@ -51,6 +51,7 @@ python components for the pypi-exceptiongroup package.
 Summary: python3 components for the pypi-exceptiongroup package.
 Group: Default
 Requires: python3-core
+Provides: pypi(exceptiongroup)
 
 %description python3
 python3 components for the pypi-exceptiongroup package.
