@@ -7,7 +7,7 @@
 #
 Name     : pypi-exceptiongroup
 Version  : 1.2.2
-Release  : 37
+Release  : 38
 URL      : https://files.pythonhosted.org/packages/09/35/2495c4ac46b980e4ca1f6ad6db102322ef3ad2410b79fdde159a4b0f3b92/exceptiongroup-1.2.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/09/35/2495c4ac46b980e4ca1f6ad6db102322ef3ad2410b79fdde159a4b0f3b92/exceptiongroup-1.2.2.tar.gz
 Summary  : Backport of PEP 654 (exception groups)
